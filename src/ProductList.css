@@ -1,0 +1,21 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  justify-self: start;
+}
+
+.out-of-stock {
+  color: red;
+}
+
+.product-list {
+  align-self: start;
+}
